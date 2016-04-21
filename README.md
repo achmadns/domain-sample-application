@@ -20,6 +20,23 @@ and switch to `develop-domainQuerySampleApp` branch
 ```java
 git checkout develop-domainQuerySampleApp
 ```
+
+Also you need to do temporary additional steps to build Sample application:
+
+1. clone JRSRestClient form GitHub
+```java
+git clone https://github.com/Jaspersoft/jrs-rest-java-client.git
+```
+2. checkout develop-domainQuery branch
+```java
+git checkout branch develop-domainQuery
+```
+3. run Maven goal "install"
+```java
+mvn install
+```
+These steps shoud be remover after Metadata API on JRS will bw released. 
+
 2. Run biuld of application form command line with goal:
 ```java
 mvn package
