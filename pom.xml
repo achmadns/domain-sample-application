@@ -11,13 +11,18 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <test.properties.file>src/main/resources/default_test_config.properties</test.properties.file>
-        <jrs.client.version>6.2.1_domain_designer</jrs.client.version>
+        <jrs.client.version>6.2.1</jrs.client.version>
     </properties>
     <repositories>
         <repository>
-            <id>jrs-ce-releases</id>
+            <id>jrs-client-releases</id>
             <name>JasperReports Server CE releases repository</name>
             <url>http://jaspersoft.artifactoryonline.com/jaspersoft/jaspersoft-clients-releases/</url>
+        </repository>
+        <repository>
+            <id>jrs-ce-releases</id>
+            <name>JasperReports Server CE releases repository</name>
+            <url>https://jaspersoft.artifactoryonline.com/jaspersoft/jrs-ce-releases/</url>
         </repository>
     </repositories>
     <dependencies>
